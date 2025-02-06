@@ -1,0 +1,38 @@
+{
+    "name": "api-das-group/marchex-report",
+    "description": "Call Report Marchex API  PHP Library",
+    "keywords": [     
+      "marchex",
+      "reports",
+      "call tracking",
+      "api"
+    ],
+    "homepage": "https://github.com/marketing-com/api-das-marchex-report",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marketing.com IT Department",
+            "email": "carlos.gonzalez@marketing.com",
+            "homepage": "https://github.com/marketing-com/api-das-marchex-report"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marketing-com/api-das-marchex-report.git"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">= 7.1",
+      "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Marchex\\": "src/"
+      }
+    }
+}
